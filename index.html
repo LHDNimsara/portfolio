@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Certificates</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,I'm</h3>
+            <h1>Dilhana Nimsara</h1>
+            <h3>And i'm an <span>Undergraduate at UOM</span></h3>
+            <!--para-->
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/dilhana-nimsara-9aaa80359/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/LHDNimsara"><i class="fa-brands fa-github" target="_blank"></i></a>
+            </div>
+            <a href="My CV.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="circle-bg">
+                <img src="IMAGE1.PNG" alt="profile">
+            </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img-box">
+            <div class="about-img">
+                <img src="image3.jpeg" alt="about">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <p><b> I am an enthusiastic undergraduate at the University of Moratuwa,Faculty of Information Technology.
+                    I have a strong interest in web development and enjoy creating responsive, user-friendly websites.
+                    My core skills include HTML, CSS, and JavaScript, which I use to build interactive and visually
+                    appealing web interfaces.
+                </b><span class="extra-about" style="display:none; color:white"><b>
+                        I am constantly learning and exploring new tools and technologies to expand my knowledge and
+                        stay
+                        I'm passionate about turning ideas into digital experiences that make a difference.
+                        updated with the latest trends in the tech industry.
+                        I am currently exploring IoT systems, especially
+                        through
+                        projects like an automated plant watering system. I enjoy solving problems through code and
+                        continuously improving my skills in modern JavaScript frameworks and backend tools. I'm also
+                        actively learning cloud technologies and contributing to GitHub projects when time
+                        allows.</b></span>
+            </p>
+            <a href="#" class="btn"
+                onclick="document.querySelector('.extra-about').style.display='inline'; this.style.display='none'; return false;">Read
+                more</a>
+        </div>
+    </section>
+    <!--BLOG SECTION-->
+    <section class="blog-article" id="blog">
+        <h2 class="heading"> <span >&#128171</span>The Building Blocks of the Web</h2>
+        <div class="article">
+            <h4><span>&#128392</span>Introduction</h4>
+            <p>If you’ve ever wondered how websites work behind the scenes, the answer lies in three core technologies: HTML, CSS, and JavaScript. Together, they form the foundation of every modern webpage you interact with. In this article, we’ll explore what each technology does, why it’s important, and how they work together to create rich, interactive experiences.
+
+            </p>
+            <a href=https://medium.com/@dilhananimsarauni class="btn" target="_blank">Read More</a>
+        </div>
+    </section>
+    <!--SERVICES SECTION DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-file-code"></i>
+                <h3>HTML & CSS</h3>
+                <p>I have skills in HTML and CSS, which I use to build clean, and fully responsive web
+                    pages.
+                    <span class="extra-web" style="display: none; color: white;">
+                        I'm confident in creating layouts, styling components, and ensuring cross-browser compatibility
+                        to deliver professional, user-friendly designs.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.extra-web').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>I have a good understanding of JavaScript for making websites interactive.
+                    <span class="js" style="display: none; color: white;">
+                        I use JavaScript to make websites interactive and dynamic.
+                        I can handle events, update content dynamically, and validate forms.
+                        I enjoy working with DOM elements to improve user experience.
+                        I'm also exploring modern JavaScript features to expand my skills.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.js').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+            </div>
+            <div class="services-box">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>I write clean, efficient Python code for various applications
+                    <span class="python" style="display: none; color: white;">
+                        I'm comfortable working with data structures, functions, and libraries.
+                        I enjoy automating tasks and solving problems using Python.
+                        I'm continuously learning new frameworks and tools to expand my expertise.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.python').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+            </div>
+
+        </div>
+    </section>
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Certificates</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Sololeran certificate.jpg" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>Introduction to C</h4>
+                    <p>Awarded a certificate of completion in C Programming from DP Education IT Campus (Sri Lanka), dated May 3, 2025, signifying successful completion of the course.
+
+                    </p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="C Certificate(DP).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>C Programming</h4>
+                    <p>Completed the "Introduction to C" course on Sololearn, demonstrating a theoretical and practical understanding of the language.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Web_Design_for_Beginners_E-Certificate.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design for Beginners</h4>
+                    <p>Completed "Web Design for Beginners" program at the University of Moratuwa (Sri Lanka), gaining foundational skills in web design.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT7.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACT SECTION DESIGN-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            <p id="form-message"
+                style="color: lightgreen; font-size: 2rem; font-weight:bold;  display: none; margin-top: 1rem; text-align: center;">
+            </p>
+
+        </form>
+    </section>
+    <!--FOOTER SECTION-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by @Dilhana Nimsara | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SCROLL REVEAL JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!--MAIN JS-->
+
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const msg = document.getElementById("form-message");
+            msg.textContent = "Thank you! Your message has been received.";
+            msg.style.display = "block";
+            this.reset(); // 
+        });
+    </script>
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>
