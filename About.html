@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">  
+    
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="skills.html">Skills</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+        <!--ABOUT SECTION DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img-box">
+                <div class="about-img">
+                    <img src="image3.jpeg" alt="about">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span> Me</span></h2>
+                <p><b> I am an enthusiastic undergraduate at the University of Moratuwa,Faculty of Information Technology.
+                        I have a strong interest in web development and enjoy creating responsive, user-friendly websites.
+                        My core skills include HTML, CSS, and JavaScript, which I use to build interactive and visually
+                        appealing web interfaces.
+                    </b><span class="extra-about" style="display:none; color:white"><b>
+                            I am constantly learning and exploring new tools and technologies to expand my knowledge and
+                            stay
+                            I'm passionate about turning ideas into digital experiences that make a difference.
+                            updated with the latest trends in the tech industry.
+                            I am currently exploring IoT systems, especially
+                            through
+                            projects like an automated plant watering system. I enjoy solving problems through code and
+                            continuously improving my skills in modern JavaScript frameworks and backend tools. I'm also
+                            actively learning cloud technologies and contributing to GitHub projects when time
+                            allows.</b></span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.extra-about').style.display='inline'; this.style.display='none'; return false;">Read
+                    more</a>
+            </div>
+        </section>
+    <!--FOOTER SECTION-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by @Dilhana Nimsara | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="About.html"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SCROLL REVEAL JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!--MAIN JS-->
+
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const msg = document.getElementById("form-message");
+            msg.textContent = "Thank you! Your message has been received.";
+            msg.style.display = "block";
+            this.reset(); // 
+        });
+    </script>
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>

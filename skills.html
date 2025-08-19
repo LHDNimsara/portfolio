@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="skills.html">Skills</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+     <!--SERVICES SECTION DESIGN-->
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-file-code"></i>
+                <h3>HTML & CSS</h3>
+                <p>I have skills in HTML and CSS, which I use to build clean, and fully responsive web
+                    pages.
+                    <span class="extra-web" style="display: none; color: white;">
+                        I'm confident in creating layouts, styling components, and ensuring cross-browser compatibility
+                        to deliver professional, user-friendly designs.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.extra-web').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+                <p>I have a good understanding of JavaScript for making websites interactive.
+                    <span class="js" style="display: none; color: white;">
+                        I use JavaScript to make websites interactive and dynamic.
+                        I can handle events, update content dynamically, and validate forms.
+                        I enjoy working with DOM elements to improve user experience.
+                        I'm also exploring modern JavaScript features to expand my skills.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.js').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+            </div>
+            <div class="services-box">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>I write clean, efficient Python code for various applications
+                    <span class="python" style="display: none; color: white;">
+                        I'm comfortable working with data structures, functions, and libraries.
+                        I enjoy automating tasks and solving problems using Python.
+                        I'm continuously learning new frameworks and tools to expand my expertise.
+                    </span>
+                </p>
+                <a href="#" class="btn"
+                    onclick="document.querySelector('.python').style.display='inline'; this.style.display='none'; return false;">Read
+                    More</a>
+            </div>
+
+        </div>
+    </section>
+     <!--FOOTER SECTION-->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by @Dilhana Nimsara | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="skills.html"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SCROLL REVEAL JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!--MAIN JS-->
+
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const msg = document.getElementById("form-message");
+            msg.textContent = "Thank you! Your message has been received.";
+            msg.style.display = "block";
+            this.reset(); // 
+        });
+    </script>
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>

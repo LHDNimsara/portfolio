@@ -114,25 +114,8 @@ span {
     object-fit: cover;
     aspect-ratio: 1/1;
     border-radius: 90%;
-    animation: floatImage 3s ease-in-out infinite;
 }
 
-
-
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-2.4rem);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-
-}
 
 .social-media a {
     display: inline-flex;
@@ -433,13 +416,18 @@ span {
     margin-right: auto;
 }
 
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(---bg-color);
+}
+.footer-index{
+    background: var(--snd-bf-color);
+
 }
 
 .footer-text {
@@ -448,6 +436,7 @@ span {
     flex-grow: 1;
 
 }
+
 
 .footer-iconTop {
     display: inline-flex;
@@ -471,6 +460,7 @@ span {
 .footer-iconTop a {
     text-decoration: none;
 }
+
 /* Blog Page Styles */
 
 .blog-article .sub-heading {

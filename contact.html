@@ -5,18 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <style>
-        .header {
-            background-color: var(--snd-bf-color);
-        }
-        .footer {
-            background-color: var(--snd-bf-color);
-        }
-    </style>
 
 
 </head>
@@ -35,40 +26,33 @@
 
         </nav>
     </header>
+     <!--CONTACT SECTION DESIGN-->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            <p id="form-message"
+                style="color: lightgreen; font-size: 2rem; font-weight:bold;  display: none; margin-top: 1rem; text-align: center;">
+            </p>
 
-    <!-- Home Page -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hi,I'm</h3>
-            <h1>Dilhana Nimsara</h1>
-            <h3>And i'm an <span>Undergraduate at UOM</span></h3>
-            <!--para-->
-            <div class="social-media">
-                <a href="https://medium.com/@dilhananimsarauni" target="_blank"><i class="fa-brands fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/dilhana-nimsara-9aaa80359/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/LHDNimsara" target="_blank"><i class="fa-brands fa-github" target="_blank"></i></a>
-            </div>
-            <a href="My CV.pdf" target="_blank" class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
-            <div class="circle-bg">
-                <img src="IMAGE1.PNG" alt="profile">
-            </div>
+        </form>
     </section>
-
-
-    
-   
-    
-   
-    <!--FOOTER SECTION-->
-    <footer class="footer">
+     <!--FOOTER SECTION-->
+     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy;2025 by @Dilhana Nimsara | All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
-            <a href="index.html"><i class="fa-solid fa-angle-up"></i></a>
+            <a href="contact.html"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            background-color: var(--snd-bf-color);
+        }
+        .footer {
+            background-color: var(--snd-bf-color);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="skills.html">Skills</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <!--CERTIFICATES SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Certificates</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Sololeran certificate.jpg" alt="project 1">
+                <div class="portfolio-layer">
+                    <h4>Introduction to C</h4>
+                    <p>Awarded a certificate of completion in C Programming from DP Education IT Campus (Sri Lanka),
+                        dated May 3, 2025, signifying successful completion of the course.
+
+                    </p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="C Certificate(DP).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>C Programming</h4>
+                    <p>Completed the "Introduction to C" course on Sololearn, demonstrating a theoretical and practical
+                        understanding of the language.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Web_Design_for_Beginners_E-Certificate.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design for Beginners</h4>
+                    <p>Completed "Web Design for Beginners" program at the University of Moratuwa (Sri Lanka), gaining
+                        foundational skills in web design.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="IT7.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--FOOTER SECTION-->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by @Dilhana Nimsara | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="certificates.html"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SCROLL REVEAL JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+    <!--MAIN JS-->
+
+    <script>
+        document.querySelector("form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const msg = document.getElementById("form-message");
+            msg.textContent = "Thank you! Your message has been received.";
+            msg.style.display = "block";
+            this.reset(); // 
+        });
+    </script>
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+
+</html>
